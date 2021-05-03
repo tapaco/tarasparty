@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from rest_framework import generics
-from .serealisers import RoomSerializer
+from .serializers import RoomSerializer
 from .models import Room
 
 # Create your views here.
